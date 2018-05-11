@@ -8,7 +8,7 @@
 #endif
 
 #include <Wire.h>
-#include "Variable.h"
+#include "VariableConversion.h"
 
 
 class  PM2_5

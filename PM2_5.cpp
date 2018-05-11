@@ -1,6 +1,5 @@
 #include "PM2_5.h"
 
-
 PM2_5::PM2_5(byte Addr)
 {
 	_Addr = Addr;
@@ -24,7 +23,7 @@ uint16_t PM2_5::GetPM1()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -42,7 +41,7 @@ uint16_t PM2_5::GetPM2_5()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -61,7 +60,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -79,7 +78,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -98,7 +97,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -118,7 +117,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -138,7 +137,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -158,7 +157,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -179,7 +178,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -200,7 +199,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -220,7 +219,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
@@ -241,7 +240,7 @@ uint16_t PM2_5::GetPM10()
 		Byte[1] = Wire.read();
 		Byte[0] = Wire.read();
 	}
-	uint16_t PMData;
+	unsigned int PMData;
 	ByteToUint(PMData,Byte);
 	return PMData;
  }
