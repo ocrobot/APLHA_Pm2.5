@@ -1,4 +1,4 @@
-#include "OCROBOT_MICS5524.h"
+#include "PM2_5.h"
 
 
 PM2_5::PM2_5(byte Addr)
@@ -21,8 +21,8 @@ uint16_t PM2_5::GetPM1()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -39,8 +39,8 @@ uint16_t PM2_5::GetPM2_5()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -58,8 +58,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -76,8 +76,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -95,8 +95,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -115,8 +115,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -135,8 +135,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -155,8 +155,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -176,8 +176,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -197,8 +197,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -217,8 +217,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
@@ -238,8 +238,8 @@ uint16_t PM2_5::GetPM10()
 	Wire.requestFrom((int)_Addr, (int)2);
 	while(Wire.available())      //read 2 byte
 	{
-		Byte[0] = Wire.read();
 		Byte[1] = Wire.read();
+		Byte[0] = Wire.read();
 	}
 	uint16_t PMData;
 	ByteToUint(PMData,Byte);
